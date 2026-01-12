@@ -1,0 +1,24 @@
+theme = "dark_plus_transparent"
+
+[editor]
+continue-comments = false
+bufferline = "always"
+text-width = 100
+rulers = [100]
+color-modes = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.auto-save]
+after-delay.enable = true
+after-delay.timeout = 1000
+
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control"]

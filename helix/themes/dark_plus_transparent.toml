@@ -1,0 +1,6 @@
+inherits = "dark_plus"
+
+"ui.background" = { }
+# "ui.cursorline.primary" = { }
+# "ui.cursorline.secondary" = { }
+# "ui.cursor.match" = { underline = { style = "line", modifiers = ["bold", "reversed"]} }
