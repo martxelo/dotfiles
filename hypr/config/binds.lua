@@ -159,6 +159,7 @@ hl.bind(mainMod .. " + CONTROL + Down",        hl.dsp.focus({ workspace = "m+1" 
 hl.bind(mainMod .. " + CONTROL + Up",          hl.dsp.focus({ workspace = "m-1" }))
 hl.bind(mainMod .. " + CONTROL + J",           hl.dsp.focus({ workspace = "m+1" }))
 hl.bind(mainMod .. " + CONTROL + K",           hl.dsp.focus({ workspace = "m-1" }))
+hl.bind(mainMod .. " + CONTROL + N",           hl.dsp.focus({ workspace = "emptym" }))
 -- hl.bind(mainMod .. " + CONTROL + Down",        hl.dsp.focus({ workspace = "emptym" }))
 
 -- Scroll through existing workspaces & monitors
