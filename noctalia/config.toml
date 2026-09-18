@@ -2,7 +2,7 @@
 ui_scale = 1.20
 
 [bar.default]
-center = [ "workspaces", "spacer_1", "active_window" ]
+center = [ "active_window" ]
 concave_edge_corners = true
 end = [ "media", "spacer_1", "tray", "notifications", "volume", "network", "spacer_1", "clock", "session" ]
 margin_edge = 0
@@ -12,7 +12,7 @@ radius_bottom_right = 12
 radius_top_left = 0
 radius_top_right = 0
 scale = 1.0
-start = [ "launcher", "spacer_1", "group:g1" ]
+start = [ "launcher", "spacer_1", "group:g1", "spacer_1", "workspaces" ]
 thickness = 15
 
     [[bar.default.capsule_group]]
