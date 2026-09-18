@@ -155,11 +155,11 @@ for i = 1, NUM_WPM do
 end
 
 -- Move to adjacent workspaces and next empty on a given monitor
-hl.bind(mainMod .. " + CONTROL + Right",       hl.dsp.focus({ workspace = "m+1" }))
-hl.bind(mainMod .. " + CONTROL + Left",        hl.dsp.focus({ workspace = "m-1" }))
-hl.bind(mainMod .. " + CONTROL + L",       hl.dsp.focus({ workspace = "m+1" }))
-hl.bind(mainMod .. " + CONTROL + H",        hl.dsp.focus({ workspace = "m-1" }))
-hl.bind(mainMod .. " + CONTROL + Down",        hl.dsp.focus({ workspace = "emptym" }))
+hl.bind(mainMod .. " + CONTROL + Down",        hl.dsp.focus({ workspace = "m+1" }))
+hl.bind(mainMod .. " + CONTROL + Up",          hl.dsp.focus({ workspace = "m-1" }))
+hl.bind(mainMod .. " + CONTROL + J",           hl.dsp.focus({ workspace = "m+1" }))
+hl.bind(mainMod .. " + CONTROL + K",           hl.dsp.focus({ workspace = "m-1" }))
+-- hl.bind(mainMod .. " + CONTROL + Down",        hl.dsp.focus({ workspace = "emptym" }))
 
 -- Scroll through existing workspaces & monitors
 hl.bind(mainMod .. " + mouse_down",           hl.dsp.focus({ workspace = "m-1" }))
