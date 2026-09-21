@@ -7,6 +7,8 @@ hl.config({
     },
     scrolling = {
         wrap_focus = true,
+        column_width = 0.5,
+        explicit_column_widths = "0.333, 0.5, 0.667, 1.0",
     },
     ecosystem = {
         no_update_news = true,
